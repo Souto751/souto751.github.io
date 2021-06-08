@@ -4,7 +4,7 @@ import {Carousel} from 'react-bootstrap'
 export default function Slider() {
     return (
         <Carousel fade className="carousel">
-            <Carousel.Item>
+            <Carousel.Item className="slide">
                 <img
                 className="d-block w-100"
                 src="https://github.com/Souto751/portfolio/blob/main/src/images/watchlist.jpg?raw=true"
@@ -18,7 +18,7 @@ export default function Slider() {
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="slide">
                 <img
                 className="d-block w-100"
                 src="https://github.com/Souto751/portfolio/blob/main/src/images/food4wild.jpg?raw=true"
@@ -34,7 +34,7 @@ export default function Slider() {
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="slide">
                 <img
                 className="d-block w-100"
                 src="https://github.com/Souto751/portfolio/blob/main/src/images/bakery.jpg?raw=true"
@@ -50,7 +50,7 @@ export default function Slider() {
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="slide">
                 <img
                 className="d-block w-100"
                 src="https://github.com/Souto751/portfolio/blob/main/src/images/testbook.jpg?raw=true"
@@ -66,7 +66,7 @@ export default function Slider() {
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="slide">
                 <img
                 className="d-block w-100"
                 src="https://github.com/Souto751/portfolio/blob/main/src/images/randomQuote.jpg?raw=true"
